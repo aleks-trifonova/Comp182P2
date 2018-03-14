@@ -9,7 +9,7 @@ public class BST_Expirement {
 	private int[] modifyArray;
 	
 
-	public BST_Expirement() {
+	public BST_Expirement() {//this is the constructor
 		createArray = new int[1023];
 		for (int i = 0; i < createArray.length; i++) {
 			createArray[i] = i;
@@ -24,7 +24,7 @@ public class BST_Expirement {
 		
 	}
 
-	private void shuffle() {
+	private void shuffle() {//this randomizes the array and stores randomized array into randomeArray
 		ArrayList<Integer> temp = new ArrayList<Integer>();// create an ArrayList so i can use Collections
 		for (int i = 0; i < createArray.length; i++) {
 			temp.add(createArray[i]);// store data into arrayList
