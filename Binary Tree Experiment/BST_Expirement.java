@@ -16,9 +16,9 @@ public class BST_Expirement {
 		}
 		randomArray = new int[1023];
 		modifyArray = new int[511];
-		for(int i = 0; i < modifyArray.length; i++) {
-			Random r = new Random();;
-			modifyArray[i] = r.nextInt(createArray.length);
+		for(int i = 0; i < modifyArray.length; i++) {//this stores the first half of the createArray;
+			
+			modifyArray[i] = createArray[i];
 		}
 		
 		
